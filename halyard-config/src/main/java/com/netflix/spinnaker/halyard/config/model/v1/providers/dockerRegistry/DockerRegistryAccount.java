@@ -34,7 +34,7 @@ public class DockerRegistryAccount extends Account {
   private String password;
   private String email;
   private Long cacheIntervalSeconds = 30L;
-  private Long clientTimeoutMillis = 60_000L;
+  private Long clientTimeoutMillis = 600_000L;
   private int cacheThreads = 1;
   private int paginateSize = 100;
   private Boolean sortTagsByDate = false;

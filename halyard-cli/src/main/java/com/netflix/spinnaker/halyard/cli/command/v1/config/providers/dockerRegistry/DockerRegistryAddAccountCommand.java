@@ -81,7 +81,7 @@ class DockerRegistryAddAccountCommand extends AbstractAddAccountCommand {
       names = "--client-timeout-millis",
       description = DockerRegistryCommandProperties.CLIENT_TIMEOUT_MILLIS_DESCRIPTION
   )
-  private Long clientTimeoutMillis = 60_000L;
+  private Long clientTimeoutMillis = 600_000L;
 
   @Parameter(
       names = "--cache-threads",
